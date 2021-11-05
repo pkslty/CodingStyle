@@ -10,7 +10,7 @@ import Foundation
             value = newValue
         }
     }
-    enum CodingStyles {
+    public enum CodingStyles {
         case camelCase
         case snakeCase
         case kebabCase
