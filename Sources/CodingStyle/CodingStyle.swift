@@ -1,6 +1,6 @@
 import Foundation
 
-@propertyWrapper struct CodingStyle {
+@propertyWrapper public struct CodingStyle {
     
     public var wrappedValue: String {
         get {
