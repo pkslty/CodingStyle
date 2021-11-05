@@ -19,7 +19,7 @@ import Foundation
     private var value: String = ""
     var codingStyle: CodingStyles
     
-    init(wrappedValue: String, codingStyle: CodingStyles) {
+    public init(wrappedValue: String, codingStyle: CodingStyles) {
         self.value = wrappedValue
         self.codingStyle = codingStyle
     }
